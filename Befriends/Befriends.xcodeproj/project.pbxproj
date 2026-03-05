@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7151BD042F59894F00C67BA2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7151BD032F59894F00C67BA2 /* GoogleSignIn */; };
+		7151BD062F59894F00C67BA2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7151BD052F59894F00C67BA2 /* GoogleSignInSwift */; };
+		71B330B12F3CB5AA007B7729 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 71B330B02F3CB5AA007B7729 /* FirebaseAnalytics */; };
+		71B330B32F3CB5AA007B7729 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 71B330B22F3CB5AA007B7729 /* FirebaseAuth */; };
+		71B330B52F3CB5AA007B7729 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 71B330B42F3CB5AA007B7729 /* FirebaseFirestore */; };
+		71C18C452F47389D003BF471 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 71C18C442F473899003BF471 /* Readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711B1ED12F3398F8001059C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711B1EBB2F3398F6001059C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711B1EC22F3398F6001059C9;
+			remoteInfo = Befriends;
+		};
+		711B1EDB2F3398F8001059C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711B1EBB2F3398F6001059C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711B1EC22F3398F6001059C9;
+			remoteInfo = Befriends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7113110B2F33C0A800D2488F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7113110D2F33C0A800D2488F /* MacBeacon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacBeacon; sourceTree = BUILT_PRODUCTS_DIR; };
+		711B1EC32F3398F6001059C9 /* Befriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Befriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		711B1ED02F3398F8001059C9 /* BefriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BefriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		711B1EDA2F3398F8001059C9 /* BefriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BefriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C18C442F473899003BF471 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		71D5EB202F3608A500693A2E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		71D5EB222F3608A500693A2E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		711B1EEE2F339995001059C9 /* Exceptions for "Befriends" folder in "Befriends" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 711B1EC22F3398F6001059C9 /* Befriends */;
+		};
+		715B54CE2F37966B00F0F541 /* Exceptions for "Tests" folder in "BefriendsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BefriendsTests/BefriendsTests.swift,
+			);
+			target = 711B1ECF2F3398F8001059C9 /* BefriendsTests */;
+		};
+		715B54CF2F37966B00F0F541 /* Exceptions for "Tests" folder in "BefriendsUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BefriendsUITests/BefriendsUITests.swift,
+				BefriendsUITests/BefriendsUITestsLaunchTests.swift,
+			);
+			target = 711B1ED92F3398F8001059C9 /* BefriendsUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		711B1EC52F3398F6001059C9 /* Befriends */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				711B1EEE2F339995001059C9 /* Exceptions for "Befriends" folder in "Befriends" target */,
+			);
+			path = Befriends;
+			sourceTree = "<group>";
+		};
+		715B54CA2F37966B00F0F541 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				715B54CE2F37966B00F0F541 /* Exceptions for "Tests" folder in "BefriendsTests" target */,
+				715B54CF2F37966B00F0F541 /* Exceptions for "Tests" folder in "BefriendsUITests" target */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7113110A2F33C0A800D2488F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1EC02F3398F6001059C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7151BD062F59894F00C67BA2 /* GoogleSignInSwift in Frameworks */,
+				71B330B12F3CB5AA007B7729 /* FirebaseAnalytics in Frameworks */,
+				7151BD042F59894F00C67BA2 /* GoogleSignIn in Frameworks */,
+				71B330B32F3CB5AA007B7729 /* FirebaseAuth in Frameworks */,
+				71B330B52F3CB5AA007B7729 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1ECD2F3398F8001059C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1ED72F3398F8001059C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711B1EBA2F3398F6001059C9 = {
+			isa = PBXGroup;
+			children = (
+				711B1EC52F3398F6001059C9 /* Befriends */,
+				71D5EB1F2F3608A500693A2E /* Frameworks */,
+				715B54CA2F37966B00F0F541 /* Tests */,
+				711B1EC42F3398F6001059C9 /* Products */,
+				71C18C442F473899003BF471 /* Readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		711B1EC42F3398F6001059C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711B1EC32F3398F6001059C9 /* Befriends.app */,
+				711B1ED02F3398F8001059C9 /* BefriendsTests.xctest */,
+				711B1EDA2F3398F8001059C9 /* BefriendsUITests.xctest */,
+				7113110D2F33C0A800D2488F /* MacBeacon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71D5EB1F2F3608A500693A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71D5EB202F3608A500693A2E /* WidgetKit.framework */,
+				71D5EB222F3608A500693A2E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7113110C2F33C0A800D2488F /* MacBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711311132F33C0A800D2488F /* Build configuration list for PBXNativeTarget "MacBeacon" */;
+			buildPhases = (
+				711311092F33C0A800D2488F /* Sources */,
+				7113110A2F33C0A800D2488F /* Frameworks */,
+				7113110B2F33C0A800D2488F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacBeacon;
+			packageProductDependencies = (
+			);
+			productName = MacBeacon;
+			productReference = 7113110D2F33C0A800D2488F /* MacBeacon */;
+			productType = "com.apple.product-type.tool";
+		};
+		711B1EC22F3398F6001059C9 /* Befriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711B1EE42F3398F8001059C9 /* Build configuration list for PBXNativeTarget "Befriends" */;
+			buildPhases = (
+				711B1EBF2F3398F6001059C9 /* Sources */,
+				711B1EC02F3398F6001059C9 /* Frameworks */,
+				711B1EC12F3398F6001059C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				711B1EC52F3398F6001059C9 /* Befriends */,
+			);
+			name = Befriends;
+			packageProductDependencies = (
+				71B330B02F3CB5AA007B7729 /* FirebaseAnalytics */,
+				71B330B22F3CB5AA007B7729 /* FirebaseAuth */,
+				71B330B42F3CB5AA007B7729 /* FirebaseFirestore */,
+				7151BD032F59894F00C67BA2 /* GoogleSignIn */,
+				7151BD052F59894F00C67BA2 /* GoogleSignInSwift */,
+			);
+			productName = Befriends;
+			productReference = 711B1EC32F3398F6001059C9 /* Befriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		711B1ECF2F3398F8001059C9 /* BefriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711B1EE72F3398F8001059C9 /* Build configuration list for PBXNativeTarget "BefriendsTests" */;
+			buildPhases = (
+				711B1ECC2F3398F8001059C9 /* Sources */,
+				711B1ECD2F3398F8001059C9 /* Frameworks */,
+				711B1ECE2F3398F8001059C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711B1ED22F3398F8001059C9 /* PBXTargetDependency */,
+			);
+			name = BefriendsTests;
+			packageProductDependencies = (
+			);
+			productName = BefriendsTests;
+			productReference = 711B1ED02F3398F8001059C9 /* BefriendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		711B1ED92F3398F8001059C9 /* BefriendsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711B1EEA2F3398F8001059C9 /* Build configuration list for PBXNativeTarget "BefriendsUITests" */;
+			buildPhases = (
+				711B1ED62F3398F8001059C9 /* Sources */,
+				711B1ED72F3398F8001059C9 /* Frameworks */,
+				711B1ED82F3398F8001059C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711B1EDC2F3398F8001059C9 /* PBXTargetDependency */,
+			);
+			name = BefriendsUITests;
+			packageProductDependencies = (
+			);
+			productName = BefriendsUITests;
+			productReference = 711B1EDA2F3398F8001059C9 /* BefriendsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711B1EBB2F3398F6001059C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					7113110C2F33C0A800D2488F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					711B1EC22F3398F6001059C9 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					711B1ECF2F3398F8001059C9 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 711B1EC22F3398F6001059C9;
+					};
+					711B1ED92F3398F8001059C9 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 711B1EC22F3398F6001059C9;
+					};
+				};
+			};
+			buildConfigurationList = 711B1EBE2F3398F6001059C9 /* Build configuration list for PBXProject "Befriends" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711B1EBA2F3398F6001059C9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				71B330AF2F3CB5AA007B7729 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7151BD022F59894F00C67BA2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 711B1EC42F3398F6001059C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711B1EC22F3398F6001059C9 /* Befriends */,
+				711B1ECF2F3398F8001059C9 /* BefriendsTests */,
+				711B1ED92F3398F8001059C9 /* BefriendsUITests */,
+				7113110C2F33C0A800D2488F /* MacBeacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711B1EC12F3398F6001059C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C18C452F47389D003BF471 /* Readme.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1ECE2F3398F8001059C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1ED82F3398F8001059C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711311092F33C0A800D2488F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1EBF2F3398F6001059C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1ECC2F3398F8001059C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711B1ED62F3398F8001059C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711B1ED22F3398F8001059C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711B1EC22F3398F6001059C9 /* Befriends */;
+			targetProxy = 711B1ED12F3398F8001059C9 /* PBXContainerItemProxy */;
+		};
+		711B1EDC2F3398F8001059C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711B1EC22F3398F6001059C9 /* Befriends */;
+			targetProxy = 711B1EDB2F3398F8001059C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		711311112F33C0A800D2488F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BUW8B6ADM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		711311122F33C0A800D2488F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BUW8B6ADM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		711B1EE22F3398F8001059C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		711B1EE32F3398F8001059C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711B1EE52F3398F8001059C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BUW8B6ADM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Befriends/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Befriends utilise le Bluetooth pour détecter vos amis à proximité, même quand l'application est fermée.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.Befriends.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		711B1EE62F3398F8001059C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BUW8B6ADM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Befriends/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Befriends utilise le Bluetooth pour détecter vos amis à proximité, même quand l'application est fermée.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.Befriends.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		711B1EE82F3398F8001059C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.BefriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Befriends.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Befriends";
+			};
+			name = Debug;
+		};
+		711B1EE92F3398F8001059C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.BefriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Befriends.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Befriends";
+			};
+			name = Release;
+		};
+		711B1EEB2F3398F8001059C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.BefriendsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Befriends;
+			};
+			name = Debug;
+		};
+		711B1EEC2F3398F8001059C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7752XL7ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Olima34.BefriendsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Befriends;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711311132F33C0A800D2488F /* Build configuration list for PBXNativeTarget "MacBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711311112F33C0A800D2488F /* Debug */,
+				711311122F33C0A800D2488F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711B1EBE2F3398F6001059C9 /* Build configuration list for PBXProject "Befriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711B1EE22F3398F8001059C9 /* Debug */,
+				711B1EE32F3398F8001059C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711B1EE42F3398F8001059C9 /* Build configuration list for PBXNativeTarget "Befriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711B1EE52F3398F8001059C9 /* Debug */,
+				711B1EE62F3398F8001059C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711B1EE72F3398F8001059C9 /* Build configuration list for PBXNativeTarget "BefriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711B1EE82F3398F8001059C9 /* Debug */,
+				711B1EE92F3398F8001059C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711B1EEA2F3398F8001059C9 /* Build configuration list for PBXNativeTarget "BefriendsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711B1EEB2F3398F8001059C9 /* Debug */,
+				711B1EEC2F3398F8001059C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7151BD022F59894F00C67BA2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		71B330AF2F3CB5AA007B7729 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7151BD032F59894F00C67BA2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7151BD022F59894F00C67BA2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		7151BD052F59894F00C67BA2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7151BD022F59894F00C67BA2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		71B330B02F3CB5AA007B7729 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71B330AF2F3CB5AA007B7729 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		71B330B22F3CB5AA007B7729 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71B330AF2F3CB5AA007B7729 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		71B330B42F3CB5AA007B7729 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71B330AF2F3CB5AA007B7729 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 711B1EBB2F3398F6001059C9 /* Project object */;
+}
